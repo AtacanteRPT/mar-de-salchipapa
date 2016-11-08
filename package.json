@@ -1,0 +1,21 @@
+{
+  "name": "mar-de-salchipapa",
+  "version": "1.0.0",
+  "description": "ricarso prueba",
+  "main": "server.js",
+  "scripts": {
+    "test": "fhrhfae"
+  },
+  "keywords": [
+    "agf"
+  ],
+  "author": "ricarso",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7"
+  }
+}

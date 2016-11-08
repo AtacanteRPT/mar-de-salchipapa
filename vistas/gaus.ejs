@@ -1,0 +1,21 @@
+<html>  
+    <head>  </head>
+    <body>
+            <h1> Entrando En Gauss</h1>
+
+              <% for(var i = 0 ; i< recursos.length; i++) { %>
+            <h1> id : <%= recursos[i].id%></h1>
+            <h1> nombre : <%= recursos[i].nombre%></h1>
+            <%}%>
+
+            <form action="http://localhost:3000/gaus" method="POST">
+                   
+                       id  : <input type="number" name="id" >
+                        
+                       nombre :  <input type="text" name="nombre">
+                   
+                        <input type="submit" name="button">Adicionar</input>
+            </form>
+
+    </body>
+</html>
